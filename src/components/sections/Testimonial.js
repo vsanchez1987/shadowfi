@@ -53,7 +53,7 @@ const Testimonial = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      {/* <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
@@ -111,7 +111,7 @@ const Testimonial = ({
 
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

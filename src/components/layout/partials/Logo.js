@@ -21,9 +21,9 @@ const Logo = ({
       <h1 className="m-0">
         <Link to="/">
           <Image
-            src={require('./../../../assets/images/logo.svg')}
+            src={require('./../../../assets/images/ShadowFi_long_v2.svg')}
             alt="Open"
-            width={32}
+            width={200}
             height={32} />
         </Link>
       </h1>
