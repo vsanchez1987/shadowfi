@@ -1,5 +1,5 @@
 {
-"homepage": "https://vsanchez1987.github.io/shadowfi/",
+"homepage": "https://vsanchez1987.github.io/",
   "name": "open-react-template",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vsanchez1987/shadowfi"
+    "url": "https://github.com/vsanchez1987/"
   },
   "scripts": {
     "predeploy": "npm run build",
