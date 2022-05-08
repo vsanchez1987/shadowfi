@@ -18,6 +18,15 @@ $palette: (
     3: #ff00bf,
     4: #e9e9ff,
   ),
+  rideshare: (
+    Lyft: #ff00bf,
+    DoorDash: #ff3008,
+    GoPuff: #4ac0ee,
+    Shipt: #231239,
+    GrubHub: #f5333f,
+    Eaze: #00a4ec,
+    Instacart: #013d28,
+  ),
   secondary: (
     1: #24e5af,
     2: #73efcc,
@@ -39,6 +48,13 @@ $color: (
   mid-contrast: get-color(light, 2),
   low-contrast: get-color(light, 3),
   primary: get-color(primary, 3),
+  Lyft: get-color(rideshare, Lyft),
+  DoorDash: get-color(rideshare, DoorDash),
+  GoPuff: get-color(rideshare, GoPuff),
+  Shipt: get-color(rideshare, Shipt),
+  GrubHub: get-color(rideshare, GrubHub),
+  Eaze: get-color(rideshare, Eaze),
+  Instacart: get-color(rideshare, Instacart),
   secondary: get-color(secondary, 1),
   error: get-color(alert, error),
   warning: get-color(alert, warning),
@@ -80,7 +96,7 @@ $icon--color: (
   // accordion icon
   social-inverse: null,
   // social icons
-  social-hover-inverse: null // social icons (:hover),,,,,
+  social-hover-inverse: null // social icons (:hover),,,,,,,,,,,,
 );
 
 // Misc elements: background color

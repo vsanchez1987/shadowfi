@@ -61,7 +61,18 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Auto loans for <span className="text-color-primary">Lyft</span> drivers
+              <span className='text-spacing'>Car loans for</span>
+              <div className="content">
+                <div className='content__container'>
+                  <ul className='content__container__list'>
+                    <li className='content__container__item text-color-lyft'>Lyft</li>
+                    <li className='content__container__item'>Uber</li>
+                    <li className='content__container__item text-color-doordash'>Shipt</li>
+                    <li className='content__container__item text-color-eaze'>Eaze</li>
+                  </ul>
+                </div>
+              </div> 
+                <span>drivers</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
