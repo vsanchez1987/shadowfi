@@ -52,6 +52,7 @@ const Hero = ({
     bottomDivider && 'has-bottom-divider'
   );
 
+
   return (
     <section
       {...props}
@@ -80,7 +81,7 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                  <Button tag="a" color="primary" wideMobile onClick={openModal}>
                     Get started
                     </Button>
                 </ButtonGroup>
