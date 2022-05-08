@@ -5,6 +5,14 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import { Router, 
+        Switch,
+        Route,
+        NavLink } from 'react-router-dom';
+
+const SignUp = () => {
+  return <p>Put me in coach!</p>;
+};
 
 const propTypes = {
   ...SectionProps.types
