@@ -791,6 +791,11 @@ img.has-shadow {
     }
   }
 
+  .content {
+    top: 25.5%;
+    left: 38%;
+  }
+
   // Spacing, spacers
   .spacer-4-mobile {
     padding-top: 4px;
@@ -851,5 +856,10 @@ img.has-shadow {
     .button-group {
       justify-content: center;
     }
+  }
+
+  .content {
+    top: 25.5%;
+    left: 38%;
   }
 }
